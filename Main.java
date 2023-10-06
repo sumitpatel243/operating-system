@@ -3,7 +3,7 @@
 
 import java.util.concurrent.Semaphore;
 
-public class Main {
+public class Reader_writer {
     static int rc = 0;
     static Semaphore s = new Semaphore(1);
     static Semaphore wrt = new Semaphore(1);
