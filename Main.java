@@ -1,3 +1,6 @@
+// reader- writer problem
+
+
 import java.util.concurrent.Semaphore;
 
 public class Main {
